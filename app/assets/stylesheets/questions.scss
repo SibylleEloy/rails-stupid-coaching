@@ -6,4 +6,39 @@ h1 {
   font-size: 40px;
   color : #363636;
   font-family: arial;
+  font-weight: lighter;
 }
+
+.banner {
+  background: red;
+  h1 {
+    font-size: 55px;
+  }
+}
+
+p {
+  font-family: arial;
+  margin: 40px;
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+#button {
+  background-color: #3367C7;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#search {
+  padding: 8px;
+}
+
